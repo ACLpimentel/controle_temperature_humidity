@@ -1,0 +1,56 @@
+html { font-family: 'Open Sans', sans-serif; display: block; margin: 0px auto; text-align: center;color: #333333;}
+body{margin-top: 50px;}
+h1 {margin: 50px auto 30px;}
+h2{font-size: 200%;}
+.side-by-side{display: inline-block;vertical-align: middle;position: relative;}
+.humidity-icon{background-color: #3498db;width: 30px;height: 30px;border-radius: 50%;line-height: 36px;}
+.humidity-text{font-weight: 600;padding-left: 15px;font-size: 19px;width: 160px;text-align: left;}
+.humidity{font-weight: 300;font-size: 60px;color: #3498db;}
+.temperature-icon{background-color: #f39c12;width: 30px;height: 30px;border-radius: 50%;line-height: 10%;}
+.temperature-text{font-weight: 600;padding-left: 15px;font-size: 19px;width: 160px;text-align: left;}
+.temperature-text-goal{font-weight: 600;padding-left: 15px;font-size: 19px;width: 200px;text-align: left;}
+.temperature{font-weight: 300;font-size: 60px;color: #f39c12;}
+.temperature-goal{font-weight: 400;font-size: 20px;color: #f39c12;}
+.superscript{font-size: 17px;font-weight: 600;position: absolute;right: -20px;top: 15px;}
+.box1{padding: 10px;}
+.botao{ background-color: #f69700; color: white; border: none; border-radius: 4px}
+.wrapper{background-color: #e2e2e2; border-radius: 10px; margin: 5%; padding-bottom: 3%; }
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(1fr,1fr,1fr);
+    grid-auto-rows: 5em;
+    grid-row-gap: 10xp;
+}
+
+.box1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.box2{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.box3{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.box4{
+    grid-column-start: 2;
+    grid-column-end: ;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.box5{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+ 
